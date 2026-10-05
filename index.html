@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 1 - Draggable 練習</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .draggable-box {
+            width: 200px;
+            padding: 20px;
+            margin: 10px 0;
+            background-color: #e0f7fa;
+            border: 2px dashed #00838f;
+            cursor: grab;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exercise 1: 實作 draggable 屬性</h1>
+    <p>請嘗試用滑鼠拖曳下方的文字或區塊：</p>
+
+    <!-- 簡單的段落文字拖曳 -->
+    <p draggable="true" style="background: #fff3e0; padding: 10px; border: 1px solid #ffb74d;">
+        這是一段可以被拖曳的文字段落 (&lt;p draggable="true"&gt;)
+    </p>
+
+    <!-- 區塊拖曳範例 -->
+    <div draggable="true" class="draggable-box">
+        請把我拖走！
+    </div>
+
+</body>
+</html>
